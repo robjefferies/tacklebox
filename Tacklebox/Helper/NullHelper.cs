@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Tacklebox
+﻿namespace Tacklebox.Helper
 {
-    public class Class1
+    public class NullHelper
     {
+        public string ToEmpty(string value)
+        {
+            return value ?? "";
+        }
     }
 }
