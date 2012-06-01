@@ -15,5 +15,14 @@ namespace Tacklebox.Helper
             if (startDate > endDate.AddYears(-age)) age--;
             return age;
         } 
+
+        public static DateTime Min(DateTime date1, DateTime date2)
+        {
+            return date1.Min(date2);
+        }
+        public static DateTime Max(DateTime date1, DateTime date2)
+        {
+            return date1.Max(date2);
+        }
     }
 }

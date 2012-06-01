@@ -54,5 +54,12 @@ namespace Tacklebox.Tests.Extensions
         {
             Assert.AreEqual(new DateTime(2012,4,28),"4/28/2012".ToDateTime());
         }
+
+        [Test]
+        public void RightTest()
+        {
+            Assert.AreEqual("llo","hello".Right(3),"Right 3");
+            Assert.AreEqual("", "hello".Right(0), "Right 0");
+        }
     }
 }

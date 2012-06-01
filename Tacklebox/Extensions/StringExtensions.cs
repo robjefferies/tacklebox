@@ -38,5 +38,10 @@ namespace Tacklebox.Extensions
                 return bool.Parse(self);
             }
         }
+
+        public static string Right(this string self, int size)
+        {
+            return self.Substring(self.Length - size, size);
+        }
     }
 }
