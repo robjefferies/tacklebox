@@ -69,6 +69,7 @@
     <Compile Include="Extensions\DateTimeExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Formatter\StringFormat.cs" />
+    <Compile Include="Helper\DateHelper.cs" />
     <Compile Include="Helper\NullHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
