@@ -21,5 +21,10 @@ namespace Tacklebox.Configuration
             return Get(key).ToDateTime();
         }
 
+        public static bool GetBoolean(string key)
+        {
+            return Get(key).ToBool();
+        }
+
     }
 }
