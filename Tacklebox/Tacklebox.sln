@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tacklebox", "Tacklebox.csproj", "{413EBC15-26BB-4F18-9F61-F56AC0056EA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tacklebox.Tests", "..\Tacklebox.Tests\Tacklebox.Tests.csproj", "{71D3E721-698F-42D4-95AC-708D09638428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{413EBC15-26BB-4F18-9F61-F56AC0056EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413EBC15-26BB-4F18-9F61-F56AC0056EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413EBC15-26BB-4F18-9F61-F56AC0056EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D3E721-698F-42D4-95AC-708D09638428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D3E721-698F-42D4-95AC-708D09638428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D3E721-698F-42D4-95AC-708D09638428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D3E721-698F-42D4-95AC-708D09638428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
