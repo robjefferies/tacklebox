@@ -46,7 +46,7 @@ namespace Tacklebox.Tests.Extensions
             Assert.AreEqual(false, "false".ToBool());
 
             Assert.AreEqual(true,"1".ToBool());
-            Assert.AreEqual(false,"0".ToBool());
+            Assert.AreEqual(false,"0".ToBool(),"Test 0 to false.");
         }
 
         [Test]
