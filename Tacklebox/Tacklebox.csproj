@@ -67,6 +67,7 @@
     <Compile Include="Configuration\Config.cs" />
     <Compile Include="Extensions\BooleanExtensions.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Formatter\StringFormat.cs" />
     <Compile Include="Helper\DateHelper.cs" />

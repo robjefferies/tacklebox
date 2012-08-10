@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Extensions\BooleanExtensionsTests.cs" />
     <Compile Include="Extensions\DateTimeExtensionTests.cs" />
+    <Compile Include="Extensions\ExceptionExtensionsTests.cs" />
     <Compile Include="Extensions\StringExtensionsTests.cs" />
     <Compile Include="Formatter\StringFormatTest.cs" />
     <Compile Include="Helper\DateHelperTest.cs" />
