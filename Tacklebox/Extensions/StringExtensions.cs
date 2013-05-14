@@ -43,5 +43,11 @@ namespace Tacklebox.Extensions
         {
             return self.Substring(self.Length - size, size);
         }
+
+        public static bool IsNumeric(this string self)
+        {
+            decimal parseResult = 0;
+            return Decimal.TryParse(self, out parseResult);
+        }
     }
 }

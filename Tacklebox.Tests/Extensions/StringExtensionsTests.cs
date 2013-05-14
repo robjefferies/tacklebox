@@ -61,5 +61,13 @@ namespace Tacklebox.Tests.Extensions
             Assert.AreEqual("llo","hello".Right(3),"Right 3");
             Assert.AreEqual("", "hello".Right(0), "Right 0");
         }
+
+        [Test]
+        public void IsNumericTest()
+        {
+            Assert.AreEqual(false,"abc".IsNumeric(),"Not Numeric");
+            Assert.AreEqual(true, "123".IsNumeric(), "Numeric");
+            Assert.AreEqual(false, "".IsNumeric(), "Empty String Not Numeric");
+        }
     }
 }
