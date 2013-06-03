@@ -99,6 +99,7 @@ publish/
 
 # Ingore Nuget Packages we build
 *.nupkg
+nuget-deploy.cmd
 
 # Windows Azure Build Output
 csx
