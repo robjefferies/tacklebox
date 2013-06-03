@@ -50,6 +50,7 @@
     <Compile Include="Formatter\StringFormatTest.cs" />
     <Compile Include="Helper\DateHelperTest.cs" />
     <Compile Include="Helper\NumberHelperTest.cs" />
+    <Compile Include="IO\FileTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

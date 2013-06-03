@@ -73,6 +73,7 @@
     <Compile Include="Helper\DateHelper.cs" />
     <Compile Include="Helper\NullHelper.cs" />
     <Compile Include="Helper\NumberHelper.cs" />
+    <Compile Include="IO\File.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
